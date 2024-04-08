@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.menu li:hover {
+  width: auto;
+  background-color: rgba(40, 43, 43, 0.533);
+  border-radius: 50px;
+}
+.menu li {
+  list-style: none;
+  width: auto;
+  display: flex;
+  padding: 0.9rem;
+  margin-right:50px ;
+  justify-content: space-around;
+  text-align: start;
+}
+.menu ul {
+  height: 100vh;
+}
+img {
+  color: white;
+}
+
+#post a{
+  border-radius: 50px;
+  background-color: rgb(73, 121, 253);
+  margin-bottom: 1.7rem;
+  width: 90%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0px;
+}
+
+#post{
+  width: 100%;
+}
+
+.name-user:nth-child(2){
+    color:rgb(129, 129, 129);
+}
+
+
+
+.name-user{
+    margin: 0px;
+    
+  }
+.profile{
+    display: flex;
+    justify-content: start;
+
+}
+.prof{
+  padding: 0px;
+    width:5rem;
+    display: flex;
+    justify-content: space-arround;
+    
+}
+
+.menu{
+  text-transform: capitalize;
+}
+
+/* 
+.menu table tr{
+  font-weight: 600;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+
+.menu table tr:hover{
+  background-color: rgba(40, 43, 43, 0.533) ;
+}
+
+.menu table tr td:hover{
+  border-radius: 10px;
+} */
+
+.menu button a{
+  margin-left: 20px;
+}
+
+.logoo{
+  margin-right: 55%;
+}
+.logoo:hover{
+  background-color:rgba(40, 43, 43, 0.533) ;
+  border-radius: 10px;
+}
+
+
+.menu button{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid black;
+  font-size: xx-large;
+  text-transform:capitalize;
+  padding: .3rem;
+  padding-top: 0px;
+}
+.menu button:last-child{
+  color: white;
+  
+}
+.menu button i{
+  font-size: large;
+  padding-left: 0px;
+  height: 10px;
+  width:10px;
+  
+}
+.menu button:hover{
+  background-color: rgb(27, 27, 27);
+  border-radius: 20px;
+  
+}
+
+
+.postblue{
+  background-color: rgb(73, 121, 253);
+  color:white;
+  width: 80%;
+  text-align: center;
+  height: 3rem;
+  border: 0px solid white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.postblue:hover{
+  background-color: rgb(68, 110, 224);
+}
+.entre{
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  width: 12rem;
+  
+}
+.entre h5{
+  font-weight: 400;
+  color: white;
+  font-size: small;
+}
+.entre op{
+  color: white;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: start;
+}
+sup{
+  font-size:x-small ;
+  border-radius: 7px;
+  background-color:rgb(51, 135, 254);
+  position: relative;
+  right: 10px;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

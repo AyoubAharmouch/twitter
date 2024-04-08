@@ -1,0 +1,263 @@
+.mini-nav a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* .mini-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+} */
+.mini-nav .mini1:hover {
+  background-color: rgb(30, 30, 30);
+  height: 23px;
+}
+.mini1:visited{
+  border-bottom: 1px solid blue;
+}
+
+.mini-nav .mini1{
+  margin: 0px;
+  height: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: small;
+  /* padding-left: 40vh;
+  padding-right: 40vh; */
+}
+
+body{
+  color: white;
+}
+.navv{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: space-around;
+  border: 0.1px solid rgba(255, 255, 255, 0.219);
+  backdrop-filter:blur(65px);
+  margin-bottom: 0px;
+  
+
+}
+.set{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.set:hover{
+  border-radius: 50%;
+  background-color: rgb(30,30,30);
+}
+.mini-nav .post{
+  display: grid;
+  grid-template-columns: 10% 90%;
+
+  
+}
+.mini-nav{
+  color:white;  
+}
+
+#post , #post:hover{
+  background-color: black;
+  border-radius: 0px;
+  border : 0px solid black
+}
+
+textarea {
+  resize: none;
+  font-size: large;
+  letter-spacing: .2px;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-height: 40px;
+}
+.post{
+  padding: 1rem;
+  border: 0.1px solid rgba(255, 255, 255, 0.219);
+}
+
+#myHr {
+  border-color: rgba(255, 255, 255, 0.219); 
+}
+aside ul{
+  display: flex;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 5%;
+}
+aside ul li{
+  margin: 0px;
+  height: 2.5em;
+  padding-top: 0px;
+  list-style: none;
+}
+aside ul li{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+aside{
+  display: flex;
+  justify-content: space-between;
+}
+aside input{
+  height:2.5em ;
+  background-color: rgb(51, 135, 254);
+  border-radius: 10px;
+  margin-top: 3px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.posts{
+  display: grid;
+  grid-template-columns: 10% 88% 2%;
+}
+.pos div span{
+  text-align: center;
+}
+.pos{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.pos .name-user{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.pos div:first-child{
+  display: flex;
+  justify-content: start;
+  padding-top: 0px;
+}
+.name-user h6{
+  color:gray;
+  text-align: end;
+}
+.pos .picture img{
+  border-radius: 10px;
+  margin-right: 70px;
+}
+.acote{
+  display: flex;
+}
+.react{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  font-weight: 100;
+}
+.react li{
+  list-style: none;
+  color: gray;
+}
+.react li i{
+  padding: .2rem;
+}
+
+.react li:first-child:hover , .react li:nth-child(4):hover,.react li:nth-child(5) a:first-child:hover,.react li:nth-child(5) a:nth-child(2):hover{
+  background-color: rgba(31, 162, 249, 0.448);
+  border-radius: 10px;
+}
+.react li:fi  rst-child a:hover{
+  color:rgb(102, 178, 55)
+} 
+.react li:nth-child(2):hover{
+  background-color: rgba(0, 255, 128, 0.314);
+  border-radius: 10px;
+}
+.react li:nth-child(2) a:hover{
+  color: rgb(0, 255, 128);
+}
+.react li:nth-child(3) a:hover{
+  color: rgb(240, 21, 21);
+}
+
+.react li:nth-child(1) a:hover , .react li:nth-child(4) a:hover {
+  color: rgb(31, 162, 249);
+}
+
+.react li:nth-child(3) a:hover{
+  background-color: rgba(240, 21, 21, 0.212);
+  border-radius: 10px;
+  padding: 0px;
+}
+.react i:nth-child(2):hover{
+  background-color: rgba(19, 151, 70);
+  border-radius: 10px;
+}
+
+.react i:nth-child(3):hover{
+  background-color: rgba(240, 21, 21);
+  border-radius: 10px;
+}
+.react i{
+  font-size: small;
+  font-weight: 800;
+}
+.react li a {
+  color: gray;
+  font-size: small;
+}
+
+.posts{
+  border: 0.1px solid rgba(255, 255, 255, 0.219);
+  padding: 1rem;
+  padding-top: 0rem;
+}
+.picture img{
+  /* height:350px;
+  width: 400px; */
+  height:70vh;
+  width: 60vh;
+} 
+#poster{
+  color:white;
+  padding: 20px;
+  border: 0px solid;
+  border-radius: 20px
+}
+.kolo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.problem:hover{
+  border-radius:10px;
+  background-color: rgba(0, 0, 255, 0.347);
+}
+.problem{
+  padding: 5px;
+}
+.abcd{
+  padding-bottom: 4%;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 4px solid rgb(91, 91, 245);
+
+}
+.seen{
+  color:  rgb(51, 135, 254);
+  font-size: small;
+  width: 28%;
+}
+.seen i{
+  padding: 5px;
+}
+.seen:hover{
+  border-radius: 10px;
+  background-color: rgba(73, 121, 253, 0.26);
+}

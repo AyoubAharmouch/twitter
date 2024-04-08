@@ -1,0 +1,54 @@
+article{
+    display:grid;
+    grid-template-columns: 25% 45% 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.s img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px ;
+}
+.menu{
+    position: fixed;
+    /* position: sticky; */
+    
+}
+.subscribe{
+    margin-top: 15%;
+}
+.sidebar .rechrche{
+    background-color: black;
+    width: 100%;
+    box-shadow: 10px 10px red;
+}
+.sidebar .inp{
+    position: fixed;
+    width: 20%;
+    top:0px;
+    margin-top: 1px;
+    right: 15%px; 
+}
+
+.navv{
+    width: 45.3%;
+    position: fixed ;
+    top:0px;
+    left:22.7%;
+  }
+  .post{
+    margin-top: 6%;
+  }
+  .mini-nav{
+    position: absolute;
+    left: 22.75%;
+    width: 45.3%;
+  }
+  .sidebar{
+    position: absolute;
+    right:5%;
+    width:25%;
+  }

@@ -1,0 +1,170 @@
+.inp {
+  background-color: rgb(20, 20, 20);
+  border-radius: 20px;
+  border-color: none;
+  padding: 13px;
+  margin: 13px;
+  color: white;
+  width: 85%;
+}
+input:active{
+    border-color: blue;
+    background-color: black;
+}
+input:visited{
+    border-color: blue;
+    background-color: black;
+}
+.subscribe{
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.subscribe button{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(51, 135, 254);
+    border-radius: 15px;
+    border: 0px solid white;
+
+}
+
+.trends h2{
+    margin:.9rem;
+
+}
+.trends{
+    background-color: rgb(20, 20, 20);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-left: 0px;
+    
+}
+.trend p{
+    margin: 0px;
+    color: gray;
+}
+.tre:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.tre{
+    padding: 0.4rem;
+}
+
+.trend .haut{
+    display: flex;
+    justify-content: space-between;
+}
+.trend a{
+    padding: .2rem;
+}
+.trend #haut:hover{
+    border-radius: 10px;
+    color:rgba(0, 0, 255, 0.329);
+    background-color: rgba(40, 40, 255, 0.329);
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .sidebar{
+        display: none;
+    }
+    .menu button a{
+        display: none;
+    }
+    .menu button i{
+        text-align: center;
+    }
+    
+    .postblue{
+        width:auto;
+    }
+    .postblue::after{
+        content:"...";
+        display: block;
+
+    }
+    /* article{
+        display:grid;
+        grid-template-columns: 10% 90% 0%;
+    } */
+    section:nth-child(2){
+        width:90%;
+    }
+    .ayoub ,.op{
+        display: none;
+    }
+    .entre{
+        width: auto;
+    }
+
+    .menu button i{
+        text-align: center;
+        
+    }
+}
+.show:hover{
+    border-radius: 0px 0px 10px 10px;
+}
+.show{
+    font-size: medium;
+}
+
+.follow{
+    background-color:rgb(20, 20, 20) ;
+    border-radius: 10px;
+    
+}
+.suggest{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.ert{
+    display: flex;
+}
+.suggest button{
+    border-radius: 10px;
+    background-color: white;
+    font-size: medium;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+
+}
+.suggest:hover{
+    background-color: rgb(30, 30, 30);
+}
+.follow h1{
+    margin: 15px;
+}
+
+.close a , .close p{
+    color: gray;
+    font-size: x-small;
+}
+.close a:hover , .close p:hover{
+text-decoration: underline solid gray;
+}
+.close{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.posts .s{
+    margin-top: 10px;
+    
+}
+.rechrche{
+    background-color: black;
+    width: 100%;
+}
